@@ -1,0 +1,56 @@
+.weather-forecast-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the cross axis (top) */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .weather-forecast-item {
+    background-color: #314fca;
+    border: 1px solid #283ba7;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px; /* Ensure each item has a maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-container {
+    margin-bottom: 10px; /* Add some space between date and forecast details */
+  }
+  
+  .forecast-date {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #0d3968;
+    font-weight: bold;
+    background-color: #507dde; /* Light blue background for the date box */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  
+  .forecast-temp {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #ffffff;
+  }
+  
+  .forecast-condition {
+    font-size: 1.1em;
+    margin-top: 15px;
+    color: #171e43;
+    font-style: italic;
+  }
+  
+  .weather-icon {
+    margin-top: 15px;
+  }
+  
+  .weather-icon img.icon {
+    width: 50px;
+    height: 50px;
+  }
